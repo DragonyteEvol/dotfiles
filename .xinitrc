@@ -18,6 +18,9 @@ eval $(/usr/bin/killall gpg-agent; /usr/bin/gpg-agent --daemon)
 
 ## set the desktop background
 feh --bg-fill --randomize $HOME/Images/Wallpapers/demon.jpeg
+xset r rate 280 40
+setxkbmap -option caps:none
+
 # [ -f ~/.fehbg ] && sh ~/.fehbg &
 # [ ! -f ~/.fehbg ] && feh --bg-scale dwm.png
 
