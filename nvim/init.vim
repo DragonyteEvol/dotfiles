@@ -245,4 +245,3 @@ let g:user_emmet_mode='a'    "enable all function in all mode.
 " TABS
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
